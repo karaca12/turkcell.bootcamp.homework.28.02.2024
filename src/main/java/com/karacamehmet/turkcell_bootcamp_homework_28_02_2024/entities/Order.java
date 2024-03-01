@@ -8,9 +8,9 @@ import java.util.List;
 @Data
 public class Order {
     private int id;
+    private int customerId;
     private Date date;
     private int count;
     private double totalPrice;
-    private String address;
     private List<Integer> productIds;
 }
