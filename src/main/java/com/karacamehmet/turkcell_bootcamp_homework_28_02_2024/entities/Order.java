@@ -12,5 +12,5 @@ public class Order {
     private Date date;
     private int count;
     private double totalPrice;
-    private List<Integer> productIds;
+    private int productId;
 }
