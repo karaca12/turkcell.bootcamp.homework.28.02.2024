@@ -1,6 +1,6 @@
 package com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.controllers;
 
-import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.Service.abstracts.CustomerService;
+import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.services.abstracts.CustomerService;
 import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.entities.Customer;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,6 +1,6 @@
-package com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.dataAcces.contretes;
+package com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.repositories.contretes;
 
-import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.dataAcces.abstracts.CustomerRepository;
+import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.repositories.abstracts.CustomerRepository;
 import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.entities.Customer;
 import org.springframework.stereotype.Repository;
 
