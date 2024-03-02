@@ -1,4 +1,4 @@
-package com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.repositories.contretes;
+package com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.repositories.concretes;
 
 import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.entities.Product;
 import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.repositories.abstracts.ProductRepository;
