@@ -10,4 +10,11 @@ public class Supplier {
     private String name;
     private String address;
     private int productId;
+
+    public Supplier(int id, String name, String address, int productId) {
+        this.id = id;
+        this.name = name;
+        this.address = address;
+        this.productId = productId;
+    }
 }
