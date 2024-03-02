@@ -28,7 +28,6 @@ public class CustomerController {
     @GetMapping("/{id}")
     public Customer getById(@PathVariable int id) {
         return customerService.getById(id);
-
     }
 
     @DeleteMapping("/{id}")

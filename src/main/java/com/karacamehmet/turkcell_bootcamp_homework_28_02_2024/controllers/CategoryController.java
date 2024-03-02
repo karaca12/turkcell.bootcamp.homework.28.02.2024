@@ -28,7 +28,6 @@ public class CategoryController {
     @GetMapping("/{id}")
     public Category getById(@PathVariable int id) {
         return categoryService.getById(id);
-
     }
 
     @DeleteMapping("/{id}")

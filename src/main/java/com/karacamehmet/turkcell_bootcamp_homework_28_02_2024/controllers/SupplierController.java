@@ -28,7 +28,6 @@ public class SupplierController {
     @GetMapping("/{id}")
     public Supplier getById(@PathVariable int id) {
         return supplierService.getById(id);
-
     }
 
     @DeleteMapping("/{id}")

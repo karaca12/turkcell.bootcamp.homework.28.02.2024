@@ -28,7 +28,6 @@ public class ProductCommentController {
     @GetMapping("/{id}")
     public ProductComment getById(@PathVariable int id) {
         return productCommentService.getById(id);
-
     }
 
     @DeleteMapping("/{id}")
