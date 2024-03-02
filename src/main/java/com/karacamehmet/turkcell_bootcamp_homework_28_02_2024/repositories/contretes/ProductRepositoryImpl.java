@@ -1,6 +1,5 @@
 package com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.repositories.contretes;
 
-import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.entities.Customer;
 import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.entities.Product;
 import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.repositories.abstracts.ProductRepository;
 import org.springframework.stereotype.Repository;
