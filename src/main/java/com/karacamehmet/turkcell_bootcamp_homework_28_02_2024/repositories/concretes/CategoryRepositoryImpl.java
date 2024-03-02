@@ -2,10 +2,12 @@ package com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.repositories.conc
 
 import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.entities.Category;
 import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.repositories.abstracts.CategoryRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class CategoryRepositoryImpl implements CategoryRepository {
     private List<Category> categories;
 

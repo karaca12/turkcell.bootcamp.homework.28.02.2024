@@ -3,9 +3,11 @@ package com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.services.concrete
 import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.entities.Category;
 import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.repositories.abstracts.CategoryRepository;
 import com.karacamehmet.turkcell_bootcamp_homework_28_02_2024.services.abstracts.CategoryService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class CategoryServiceImpl implements CategoryService {
     private CategoryRepository categoryRepository;
 
